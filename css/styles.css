@@ -87,9 +87,26 @@ footer .fine-print {
 }
 
 
+/*media queries*/
 
+@media (max-width: 767px) {
+	.center {
+		float:none;
+		margin: 0px auto;
+	}}
 
+.bottom {
+	top:0;
+}
 
+.social {
+	text-align: center;
+	font-size: 45px;
+}
+
+.social i {
+	margin: 20px 10px 0px;
+}
 
 
 
