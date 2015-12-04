@@ -43,23 +43,27 @@ a:hover {
 }
 /*jumbotron*/
 
-
 /*content*/
-
 .featured {
-	margin-bottom: 60px
+	margin-bottom: 60px;
 }
 
 .product {
 	background-color: #edf1f4;
 	border-radius: 5%;
 	border: 5px solid rgb(252, 252, 252);
-	margin-bottom: 10px;
 }
 
 .img-box {
 	margin: 10px 0px;
 }
+
+.product a {
+	margin-bottom: 10px;
+}
+
+/*end of content*/
+
 
 /*footer*/
 footer {
@@ -68,16 +72,19 @@ footer {
 }
 
 footer a {
-	color:#bfc0c1;
+	color: #bfc0c1;
 }
 
 .contact-info {
-	padding-top:15px;
+	padding-top: 15px;
 	padding-left: 40px;
+	border-right: 1px solid #333;
+	border-left: 1px solid #333;
 }
 
 .social {
 	padding: 15px;
+
 }
 
 footer .fine-print {
@@ -86,27 +93,44 @@ footer .fine-print {
 	color: #505050;
 }
 
+/*end of footer*/
 
 /*media queries*/
 
 @media (max-width: 767px) {
 	.center {
-		float:none;
-		margin: 0px auto;
-	}}
-
-.bottom {
-	top:0;
+		float: none;
+		margin: 0 auto;
+	}
+	.bottom {
+		top: 0;
+	}
+	.social {
+		text-align: center;
+		font-size: 45px;
+	}
+	.social i {
+		margin: 20px 10px 0px;
+	}
 }
 
-.social {
-	text-align: center;
-	font-size: 45px;
-}
 
-.social i {
-	margin: 20px 10px 0px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
